@@ -14,11 +14,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Button pulsa = (Button) findViewById(R.id.pulsa);
+        Button preciona=(Button) findViewById(R.id.preciona);
 
         pulsa.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(),"Cambio de Zulema",Toast.LENGTH_SHORT).show();
+            }
+        });
+        preciona.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"Cambio Jaqueline", Toast.LENGTH_LONG).show();
             }
         });
     }
