@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
 
         Button pulsa = (Button) findViewById(R.id.pulsa);
         Button preciona=(Button) findViewById(R.id.preciona);
+        Button clickea=(Button) findViewById(R.id.button);
 
         pulsa.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -26,6 +27,12 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 Toast.makeText(getApplicationContext(),"Cambio Jaqueline", Toast.LENGTH_LONG).show();
+            }
+        });
+        clickea.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(getApplicationContext(),"Cambio de Rene",Toast.LENGTH_SHORT).show();
             }
         });
     }
