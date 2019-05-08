@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         clickea.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"Cambio de Rene palomo",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Cambio de Rene palomo gongora",Toast.LENGTH_SHORT).show();
             }
         });
 
