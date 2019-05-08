@@ -12,7 +12,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
-        android:text="Zulema"
+        android:text="@string/zulema"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.086"
@@ -145,5 +145,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.027"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="Rene palomo"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="124dp"
+        android:text="Clickea"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="151dp" />
 
 </android.support.constraint.ConstraintLayout>
